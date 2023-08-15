@@ -331,8 +331,8 @@
       },
       "Braintree": {
         "type": "Transitive",
-        "resolved": "5.12.0",
-        "contentHash": "bV2tsVIvBQeKwULT4qPZUWhxSr8mFwyAAcvLDvDpCU0cMYPHzGSahha+ghUdgGMb317BqL34/Od59n2s3MkhOQ==",
+        "resolved": "5.14.0",
+        "contentHash": "mvCEG2ZHOKfGsN/APkQMjtMs0WGttu+bQIXNrnBcR3UktWKWHYcaqGI4xrsN8ibJb3QJrQO5Av/eq+Nl9KRtOQ==",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "System.Xml.XPath.XmlDocument": "4.3.0"
@@ -3059,7 +3059,7 @@
           "Azure.Storage.Blobs": "[12.14.1, )",
           "Azure.Storage.Queues": "[12.12.0, )",
           "BitPay.Light": "[1.0.1907, )",
-          "Braintree": "[5.12.0, )",
+          "Braintree": "[5.14.0, )",
           "DnsClient": "[1.7.0, )",
           "Fido2.AspNet": "[3.0.1, )",
           "Handlebars.Net": "[2.1.2, )",
