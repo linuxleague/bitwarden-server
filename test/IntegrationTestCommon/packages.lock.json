@@ -215,10 +215,11 @@
       },
       "Braintree": {
         "type": "Transitive",
-        "resolved": "5.14.0",
-        "contentHash": "mvCEG2ZHOKfGsN/APkQMjtMs0WGttu+bQIXNrnBcR3UktWKWHYcaqGI4xrsN8ibJb3QJrQO5Av/eq+Nl9KRtOQ==",
+        "resolved": "5.18.0",
+        "contentHash": "cUuPI/NhD5VR5Y8oXe6CnhLdfCMJFvrmAD0ppW68gY2VywpFs7uy/pvgAPfGCrRQH31nKnk2DnjSeXNcL9qKcw==",
         "dependencies": {
-          "Newtonsoft.Json": "9.0.1",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
           "System.Xml.XPath.XmlDocument": "4.3.0"
         }
       },
@@ -2974,7 +2975,7 @@
         "dependencies": {
           "AutoFixture.AutoNSubstitute": "[4.17.0, )",
           "AutoFixture.Xunit2": "[4.17.0, )",
-          "Core": "[2023.7.2, )",
+          "Core": "[2023.8.1, )",
           "Kralizek.AutoFixture.Extensions.MockHttp": "[1.2.0, )",
           "Microsoft.NET.Test.Sdk": "[17.1.0, )",
           "NSubstitute": "[4.3.0, )",
@@ -2993,7 +2994,7 @@
           "Azure.Storage.Blobs": "[12.14.1, )",
           "Azure.Storage.Queues": "[12.12.0, )",
           "BitPay.Light": "[1.0.1907, )",
-          "Braintree": "[5.14.0, )",
+          "Braintree": "[5.18.0, )",
           "DnsClient": "[1.7.0, )",
           "Fido2.AspNet": "[3.0.1, )",
           "Handlebars.Net": "[2.1.2, )",
@@ -3026,15 +3027,15 @@
       "identity": {
         "type": "Project",
         "dependencies": {
-          "Core": "[2023.7.2, )",
-          "SharedWeb": "[2023.7.2, )",
+          "Core": "[2023.8.1, )",
+          "SharedWeb": "[2023.8.1, )",
           "Swashbuckle.AspNetCore.SwaggerGen": "[6.5.0, )"
         }
       },
       "infrastructure.dapper": {
         "type": "Project",
         "dependencies": {
-          "Core": "[2023.7.2, )",
+          "Core": "[2023.8.1, )",
           "Dapper": "[2.0.123, )"
         }
       },
@@ -3042,7 +3043,7 @@
         "type": "Project",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "[12.0.1, )",
-          "Core": "[2023.7.2, )",
+          "Core": "[2023.8.1, )",
           "Microsoft.EntityFrameworkCore.Relational": "[7.0.5, )",
           "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.5, )",
           "Microsoft.EntityFrameworkCore.Sqlite": "[7.0.5, )",
@@ -3054,9 +3055,9 @@
       "sharedweb": {
         "type": "Project",
         "dependencies": {
-          "Core": "[2023.7.2, )",
-          "Infrastructure.Dapper": "[2023.7.2, )",
-          "Infrastructure.EntityFramework": "[2023.7.2, )"
+          "Core": "[2023.8.1, )",
+          "Infrastructure.Dapper": "[2023.8.1, )",
+          "Infrastructure.EntityFramework": "[2023.8.1, )"
         }
       }
     }

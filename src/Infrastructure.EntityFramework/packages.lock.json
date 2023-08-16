@@ -221,10 +221,11 @@
       },
       "Braintree": {
         "type": "Transitive",
-        "resolved": "5.14.0",
-        "contentHash": "mvCEG2ZHOKfGsN/APkQMjtMs0WGttu+bQIXNrnBcR3UktWKWHYcaqGI4xrsN8ibJb3QJrQO5Av/eq+Nl9KRtOQ==",
+        "resolved": "5.18.0",
+        "contentHash": "cUuPI/NhD5VR5Y8oXe6CnhLdfCMJFvrmAD0ppW68gY2VywpFs7uy/pvgAPfGCrRQH31nKnk2DnjSeXNcL9qKcw==",
         "dependencies": {
-          "Newtonsoft.Json": "9.0.1",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
           "System.Xml.XPath.XmlDocument": "4.3.0"
         }
       },
@@ -2599,7 +2600,7 @@
           "Azure.Storage.Blobs": "[12.14.1, )",
           "Azure.Storage.Queues": "[12.12.0, )",
           "BitPay.Light": "[1.0.1907, )",
-          "Braintree": "[5.14.0, )",
+          "Braintree": "[5.18.0, )",
           "DnsClient": "[1.7.0, )",
           "Fido2.AspNet": "[3.0.1, )",
           "Handlebars.Net": "[2.1.2, )",
